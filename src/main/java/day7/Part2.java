@@ -68,7 +68,7 @@ public class Part2 {
             this.bagName = bagName;
         }
     }
-    
+
     private BagInfo makeBagInfo(String line) {
         Matcher matcher = pattern.matcher(line.trim());
         if (matcher.matches()) {
