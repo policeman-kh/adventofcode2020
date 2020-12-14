@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     implementation("com.google.guava:guava:30.0-jre")
-
+    implementation 'org.slf4j:slf4j-simple:1.7.30'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 }
