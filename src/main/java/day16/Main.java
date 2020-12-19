@@ -27,7 +27,7 @@ public class Main {
     List<String> data;
 
     private void execute() {
-        data = ReadDataClient.getInputDataList("day15.txt");
+        data = ReadDataClient.getInputDataList("day16.txt");
         for (String line : data) {
             if (line.indexOf("your ticket:") == 0) {
                 state = YOUR_TICKET;
